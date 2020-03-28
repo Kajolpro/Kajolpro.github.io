@@ -92,6 +92,12 @@ a {
   width: 750px;
 }
 
+.main_title img {
+  height: 350px;
+  width: auto;
+  align-items: center;
+}
+
 /*footer*/
 
 footer {
