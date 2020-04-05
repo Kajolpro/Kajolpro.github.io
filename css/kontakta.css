@@ -67,9 +67,6 @@ header div:hover a {
 
 main {
   margin-top: 60px;
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 main h1 {
@@ -77,15 +74,28 @@ main h1 {
   color: white;
 }
 
-main p {
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-  text-align: center;
-  width: 750px;
+.wrapper {
+  display: flex;
+  justify-content: space-around;
 }
 
+.om_text {
+  background-color: red;
+  padding: 0 10px 0 10px;
+  color: white;
+}
+
+.sociala_medier {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0 10px 0 10px;
+  color: white;
+}
+
+.sociala_medier a {
+  text-decoration: underline;
+  color: white;
+}
 
 /*footer*/
 

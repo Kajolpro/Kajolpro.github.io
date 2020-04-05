@@ -70,21 +70,22 @@ main {
 }
 
 main a {
-  color: white;
   padding-left: 60px;
   padding-right: 60px;
   padding-top: 30px;
   padding-bottom: 30px;
-  border: 1px solid white;
   border-radius: 5px;
   font-size: 30px;
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
-  background: rgba(255, 255, 255, 0.25);
-  transition: background 1s;
-  transition: border 1s;
-  transition: color 1s;
+}
+
+main a {
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    transition: background 1s, border 1s, color 1s;
 }
 
 main a:hover {
