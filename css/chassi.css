@@ -67,23 +67,54 @@ header div:hover a {
 
 main {
   margin-top: 60px;
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
 }
 
-main h1 {
-  text-align: center;
-  color: white;
+.main_text {
+  border: 2px solid rgba(255, 255, 255);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.75);
 }
 
-main p {
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
+.main_text h1 {
+  color: #404040;
+  margin-left: 10px;
+}
+
+.main_text p {
+  color: #404040;
+  margin-left: 10px;
   margin-bottom: 40px;
-  text-align: center;
+  margin-right: 10px;
   width: 750px;
+}
+
+aside {
+  width: 250px;
+  color:  #404040;
+}
+
+aside img {
+  width: 250px;
+  height: auto;
+  border: 2px solid rgba(255, 255, 255);
+  border-radius: 5px;
+}
+
+aside div {
+  border: 2px solid rgba(255, 255, 255);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+aside p {
+  margin-left: 10px;
+  color: #404040;
+}
+
+aside p a {
+  color: #301ad6;
 }
 
 
@@ -92,12 +123,12 @@ main p {
 
 footer {
   background: rgba(255, 255, 255);
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 23px;
   border-top: 2px solid #e3e3e3;
+  margin-top: 25px;
 }
 
 footer p {
