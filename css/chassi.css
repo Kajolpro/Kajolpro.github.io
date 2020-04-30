@@ -6,6 +6,7 @@ body {
   background-image: url("../img/4kr.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 a {
@@ -75,9 +76,10 @@ main {
   border: 2px solid rgba(255, 255, 255);
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.75);
+  width: 65%;
 }
 
-.main_text h1 {
+.main_text h2 {
   color: #404040;
   margin-left: 10px;
 }
@@ -87,16 +89,16 @@ main {
   margin-left: 10px;
   margin-bottom: 40px;
   margin-right: 10px;
-  width: 750px;
 }
 
 aside {
-  width: 250px;
+  max-width: 250px;
+  height: auto;
   color:  #404040;
 }
 
 aside img {
-  width: 250px;
+  width: 100%;
   height: auto;
   border: 2px solid rgba(255, 255, 255);
   border-radius: 5px;
@@ -106,6 +108,7 @@ aside div {
   border: 2px solid rgba(255, 255, 255);
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.75);
+  width: 100%;
 }
 
 aside p {
@@ -115,6 +118,10 @@ aside p {
 
 aside p a {
   color: #301ad6;
+}
+
+#cpu_whitebg {
+  border: 2px solid #949494;
 }
 
 
