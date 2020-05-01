@@ -6,6 +6,7 @@ body {
   background-image: url("../img/4kr.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 a {
@@ -67,23 +68,61 @@ header div:hover a {
 
 main {
   margin-top: 60px;
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
 }
 
-main h1 {
-  text-align: center;
-  color: white;
+.main_text {
+  border: 2px solid rgba(255, 255, 255);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.75);
+  width: 65%;
 }
 
-main p {
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
+.main_text h2 {
+  color: #404040;
+  margin-left: 10px;
+}
+
+.main_text p {
+  color: #404040;
+  margin-left: 10px;
   margin-bottom: 40px;
-  text-align: center;
-  width: 750px;
+  margin-right: 10px;
+}
+
+aside {
+  max-width: 250px;
+  height: auto;
+  color:  #404040;
+}
+
+aside img {
+  width: 100%;
+  height: auto;
+  border: 2px solid rgba(255, 255, 255);
+  border-radius: 5px;
+}
+
+aside div {
+  border: 2px solid rgba(255, 255, 255);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.75);
+  width: 100%;
+}
+
+aside p {
+  margin-left: 10px;
+  color: #404040;
+}
+
+aside p a {
+  color: #301ad6;
+}
+
+#cpu_whitebg {
+  border: 2px solid #949494;
 }
 
 
@@ -92,19 +131,19 @@ main p {
 
 footer {
   background: rgba(255, 255, 255);
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 23px;
   border-top: 2px solid #e3e3e3;
+  margin-top: 50px;
+  position: fixed;
 }
 
 footer p {
   font-size: 12px;
   text-align: center;
   margin-top: 2px;
-  margin-bottom: 7px;
 }
 
 footer a {

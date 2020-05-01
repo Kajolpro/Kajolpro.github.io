@@ -70,6 +70,7 @@ main {
   margin-top: 60px;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 50px;
 }
 
 .main_text {
@@ -136,6 +137,7 @@ footer {
   height: 23px;
   border-top: 2px solid #e3e3e3;
   margin-top: 50px;
+  position: fixed;
 }
 
 footer p {
