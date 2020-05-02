@@ -85,6 +85,11 @@ main {
   margin-left: 10px;
 }
 
+.main_text h4 {
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
 .main_text p {
   color: #404040;
   margin-left: 10px;
