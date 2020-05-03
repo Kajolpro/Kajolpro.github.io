@@ -6,6 +6,7 @@ body {
   background-image: url("../img/4kr.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 a {
@@ -62,77 +63,76 @@ header div:hover a {
   color: black
 }
 
-/*Om section*/
+/* Main title thing*/
 
 
 main {
   margin-top: 60px;
-}
-
-main h1 {
-  text-align: center;
-  color: white;
-}
-
-.wrapper {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 50px;
 }
 
-.om_text {
-  padding: 0 10px 0 10px;
-  color: white;
+.main_text {
+  border: 2px solid rgba(255, 255, 255);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.75);
+  width: 65%;
 }
 
-/*Aside section*/
+.main_text h2 {
+  color: #404040;
+  margin-left: 10px;
+}
 
-aside img {
-  width: 250px;
-  height: auto;
-  border-bottom: 2px solid white;
+.main_text h4 {
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.main_text p {
+  color: #404040;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  margin-right: 10px;
 }
 
 aside {
-  color: white;
-  width: 250px;
-  border: 2px solid white;
+  max-width: 250px;
+  height: auto;
+  color:  #404040;
+}
+
+aside img {
+  width: 100%;
+  height: auto;
+  border: 2px solid rgba(255, 255, 255);
   border-radius: 5px;
 }
 
-aside a {
-  text-decoration: underline;
-  color: white;
+#cpu_whitebg {
+  border: 2px solid #949494;
 }
 
-aside div h3 {
-  margin-left: 10px;
-}
-
-aside div p {
-  margin-left: 10px;
-}
 
 /*footer*/
 
 
 footer {
   background: rgba(255, 255, 255);
-  /*
-  position: fixed;
   left: 0;
   bottom: 0;
-  */
   width: 100%;
   height: 23px;
   border-top: 2px solid #e3e3e3;
-  margin-top: 25px;
+  margin-top: 50px;
+  position: fixed;
 }
 
 footer p {
   font-size: 12px;
   text-align: center;
   margin-top: 2px;
-  margin-bottom: 7px;
 }
 
 footer a {
